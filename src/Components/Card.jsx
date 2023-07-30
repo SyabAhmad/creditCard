@@ -79,7 +79,7 @@ const Card = () => {
         <label htmlFor="name">Name</label>
         <input
           type="text"
-          maxLength={16}
+          maxLength={10}
           id="name"
           value={name}
           onChange={handleNameOnClick}
@@ -89,7 +89,7 @@ const Card = () => {
         <div className="datee">
           <label htmlFor="expiryDate">Expiry Date</label>
           <input
-            type="text"
+            type="number"
             maxLength={2}
             id="expiryDate"
             value={month}
@@ -97,7 +97,7 @@ const Card = () => {
             placeholder="07"
           />
           <input
-            type="text"
+            type="number"
             maxLength={2}
             id="expiryDate"
             value={year}
