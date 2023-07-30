@@ -62,9 +62,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
 }
 .dataEntring input {
-  border: 1px solif rgb(78, 78, 180);
+  border: 1px solid rgb(78, 78, 180);
   border-radius: 10px;
+  color: rgb(78, 78, 180);
+  padding: 10px;
 }
